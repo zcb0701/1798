@@ -31,6 +31,8 @@ class AppKernel extends Kernel
             new Knp\Bundle\MenuBundle\KnpMenuBundle(),
             new Sonata\BlockBundle\SonataBlockBundle(),
             
+            new Vich\UploaderBundle\VichUploaderBundle(),
+            
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

@@ -111,4 +111,6 @@ sonata_block:
         sonata.user.block.account: # used to display menu option (login option)
             
 
-
+# app/config/config.yml
+vich_uploader:
+    db_driver: orm
